@@ -1,0 +1,22 @@
+/* #ab{
+  color: #0000ff;
+} */
+h1{
+    color: rgb(255, 0, 140);
+    background-color: black;
+    font-size: larger;
+}
+body{
+    background-color: #ebf1f3;
+    text-align: center;
+}
+#heading {
+    color: rgb(10, 10, 10);
+    font-weight: lighter;
+    font-family: Calibri;
+    font-size: 20px;
+}
+#line {
+    line-height: 20px;
+    text-transform: none;
+}

@@ -1,0 +1,35 @@
+.contentbox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;;
+}
+#navbar {
+    height: 40px;
+    width:  700px;
+    border: 3px solid rgb(238, 255, 0);
+    background-color: rgb(74, 201, 80);
+    display: flex;
+    
+}
+#content {
+    height: 500px;
+}
+#logo {
+    background-color: "white";
+}
+button {
+    background-color: aqua;
+}
+a { 
+    margin-right: 50px;
+}
+footer {
+        height: 40px;
+    width:  700px;
+    border: 3px solid rgb(15, 14, 15);
+    background-color: rgb(144, 74, 201);
+  
+    text-align: center;
+}
