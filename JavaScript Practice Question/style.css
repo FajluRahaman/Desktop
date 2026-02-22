@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: pink;
+}
+#num2,#num1 {
+    margin: 10px;
+    background-color: rgb(60, 204, 223);
+}
+#add {
+     background-color: green;
+}
+#color, #color1 {
+    background-color: yellow;
+}
+h1, h2{
+    background-color: chartreuse;
+}
+#result {
+  background-color: red;
+}
