@@ -1,0 +1,21 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+@media(width: 600px){
+    div {
+        background-color: red;
+    }
+}
+
+@media(min-width: 600px){
+    div {
+         background-color: rgb(26, 6, 63);
+    }
+}@media(max-width:400px){
+    div {
+        background-color: blue;
+    }
+}
