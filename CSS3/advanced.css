@@ -1,0 +1,36 @@
+.loader {
+    height: 100px;
+    width: 100px;
+    border: 2px solid lightgrey;
+    border-top: 3px solid blue;
+    border-radius: 50%; 
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {
+           transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
+}
+a::after {
+    content: "";
+    position: absolute;
+    background: red;
+    height: 1px;
+    width: 0px;
+    left: 0;
+    bottom: -2px;
+    transition: width 0.5s ease;
+
+}
+a:hover::after{
+    width: 100%;
+}

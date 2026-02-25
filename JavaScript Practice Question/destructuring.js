@@ -45,14 +45,29 @@ console.log(a4);
 // console.log(typeof(number));
 
 
-let person1 = {
-  firstname: "John",
-  lastname: "Doe",
-  age: 24
-}
-let text = person1.toString();
+// let person1 = {
+//   firstname: "John",
+//   lastname: "Doe",
+//   age: 24
+// }
+// let text = person1.toString();
 
-console.log(text);
-console.log(typeof(text));
-console.log(typeof(person1));
+// console.log(text);
+// console.log(typeof(text));
+// console.log(typeof(person1));
+
+// const num1 = [5, 6, 7];
+// const num2 = num1.toString();
+// console.log(num2);
+// console.log(typeof(num2));
+// console.log(typeof(num1));
+
+let num = 123;
+const newNum = num.toString();
+console.log(newNum);
+console.log(typeof(newNum));
+
+
+
+
 
